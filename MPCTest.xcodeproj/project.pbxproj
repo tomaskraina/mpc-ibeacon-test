@@ -14,13 +14,20 @@
 		9C77D93718E8C0F0001AD578 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C77D93618E8C0F0001AD578 /* main.m */; };
 		9C77D93B18E8C0F0001AD578 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C77D93A18E8C0F0001AD578 /* AppDelegate.m */; };
 		9C77D93E18E8C0F0001AD578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C77D93C18E8C0F0001AD578 /* Main.storyboard */; };
-		9C77D94118E8C0F0001AD578 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C77D94018E8C0F0001AD578 /* ViewController.m */; };
+		9C77D94118E8C0F0001AD578 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C77D94018E8C0F0001AD578 /* MapViewController.m */; };
 		9C77D94318E8C0F0001AD578 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C77D94218E8C0F0001AD578 /* Images.xcassets */; };
 		9C77D94A18E8C0F0001AD578 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D94918E8C0F0001AD578 /* XCTest.framework */; };
 		9C77D94B18E8C0F0001AD578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D92A18E8C0F0001AD578 /* Foundation.framework */; };
 		9C77D94C18E8C0F0001AD578 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D92E18E8C0F0001AD578 /* UIKit.framework */; };
 		9C77D95418E8C0F0001AD578 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C77D95218E8C0F0001AD578 /* InfoPlist.strings */; };
 		9C77D95618E8C0F0001AD578 /* MPCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C77D95518E8C0F0001AD578 /* MPCTestTests.m */; };
+		9C77D96018E8C2A9001AD578 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D95F18E8C2A9001AD578 /* MapKit.framework */; };
+		9C77D96218E8C2C0001AD578 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D96118E8C2C0001AD578 /* CoreBluetooth.framework */; };
+		9C77D96418E8C2C6001AD578 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D96318E8C2C6001AD578 /* CoreLocation.framework */; };
+		9C77D96618E8C2CF001AD578 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D96518E8C2CF001AD578 /* MultipeerConnectivity.framework */; };
+		9C77D96918E8CA5C001AD578 /* PeerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C77D96818E8CA5C001AD578 /* PeerAnnotation.m */; };
+		9C77D96E18E8CF92001AD578 /* Valby.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C77D96D18E8CF92001AD578 /* Valby.gpx */; };
+		9CF4A81518EC9B1F00ED54BF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4A81418EC9B1F00ED54BF /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,26 @@
 		9C77D93918E8C0F0001AD578 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C77D93A18E8C0F0001AD578 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9C77D93D18E8C0F0001AD578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C77D93F18E8C0F0001AD578 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C77D94018E8C0F0001AD578 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C77D93F18E8C0F0001AD578 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9C77D94018E8C0F0001AD578 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		9C77D94218E8C0F0001AD578 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9C77D94818E8C0F0001AD578 /* MPCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C77D94918E8C0F0001AD578 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9C77D95118E8C0F0001AD578 /* MPCTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPCTestTests-Info.plist"; sourceTree = "<group>"; };
 		9C77D95318E8C0F0001AD578 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C77D95518E8C0F0001AD578 /* MPCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPCTestTests.m; sourceTree = "<group>"; };
+		9C77D95F18E8C2A9001AD578 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9C77D96118E8C2C0001AD578 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9C77D96318E8C2C6001AD578 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9C77D96518E8C2CF001AD578 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		9C77D96718E8CA5C001AD578 /* PeerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerAnnotation.h; sourceTree = "<group>"; };
+		9C77D96818E8CA5C001AD578 /* PeerAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerAnnotation.m; sourceTree = "<group>"; };
+		9C77D96A18E8CEAF001AD578 /* Copenhagen.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Copenhagen.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Copenhagen.gpx"; sourceTree = "<group>"; };
+		9C77D96B18E8CEAF001AD578 /* Lyngby.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Lyngby.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Lyngby.gpx"; sourceTree = "<group>"; };
+		9C77D96C18E8CEAF001AD578 /* Norreport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Norreport.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Norreport.gpx"; sourceTree = "<group>"; };
+		9C77D96D18E8CF92001AD578 /* Valby.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Valby.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Valby.gpx"; sourceTree = "<group>"; };
+		9CF4A81318EC9B1F00ED54BF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9CF4A81418EC9B1F00ED54BF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C77D96618E8C2CF001AD578 /* MultipeerConnectivity.framework in Frameworks */,
+				9C77D96418E8C2C6001AD578 /* CoreLocation.framework in Frameworks */,
+				9C77D96218E8C2C0001AD578 /* CoreBluetooth.framework in Frameworks */,
+				9C77D96018E8C2A9001AD578 /* MapKit.framework in Frameworks */,
 				9C77D92D18E8C0F0001AD578 /* CoreGraphics.framework in Frameworks */,
 				9C77D92F18E8C0F0001AD578 /* UIKit.framework in Frameworks */,
 				9C77D92B18E8C0F0001AD578 /* Foundation.framework in Frameworks */,
@@ -101,6 +124,10 @@
 		9C77D92918E8C0F0001AD578 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C77D96518E8C2CF001AD578 /* MultipeerConnectivity.framework */,
+				9C77D96318E8C2C6001AD578 /* CoreLocation.framework */,
+				9C77D96118E8C2C0001AD578 /* CoreBluetooth.framework */,
+				9C77D95F18E8C2A9001AD578 /* MapKit.framework */,
 				9C77D92A18E8C0F0001AD578 /* Foundation.framework */,
 				9C77D92C18E8C0F0001AD578 /* CoreGraphics.framework */,
 				9C77D92E18E8C0F0001AD578 /* UIKit.framework */,
@@ -115,10 +142,14 @@
 				9C77D93918E8C0F0001AD578 /* AppDelegate.h */,
 				9C77D93A18E8C0F0001AD578 /* AppDelegate.m */,
 				9C77D93C18E8C0F0001AD578 /* Main.storyboard */,
-				9C77D93F18E8C0F0001AD578 /* ViewController.h */,
-				9C77D94018E8C0F0001AD578 /* ViewController.m */,
+				9C77D93F18E8C0F0001AD578 /* MapViewController.h */,
+				9C77D94018E8C0F0001AD578 /* MapViewController.m */,
 				9C77D94218E8C0F0001AD578 /* Images.xcassets */,
+				9CF4A81318EC9B1F00ED54BF /* TableViewController.h */,
+				9CF4A81418EC9B1F00ED54BF /* TableViewController.m */,
 				9C77D93118E8C0F0001AD578 /* Supporting Files */,
+				9C77D96718E8CA5C001AD578 /* PeerAnnotation.h */,
+				9C77D96818E8CA5C001AD578 /* PeerAnnotation.m */,
 			);
 			path = MPCTest;
 			sourceTree = "<group>";
@@ -126,6 +157,10 @@
 		9C77D93118E8C0F0001AD578 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C77D96D18E8CF92001AD578 /* Valby.gpx */,
+				9C77D96A18E8CEAF001AD578 /* Copenhagen.gpx */,
+				9C77D96B18E8CEAF001AD578 /* Lyngby.gpx */,
+				9C77D96C18E8CEAF001AD578 /* Norreport.gpx */,
 				9C77D93218E8C0F0001AD578 /* MPCTest-Info.plist */,
 				9C77D93318E8C0F0001AD578 /* InfoPlist.strings */,
 				9C77D93618E8C0F0001AD578 /* main.m */,
@@ -199,6 +234,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Tom Kraina";
 				TargetAttributes = {
+					9C77D92618E8C0F0001AD578 = {
+						DevelopmentTeam = KYYVLP4WYT;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					9C77D94718E8C0F0001AD578 = {
 						TestTargetID = 9C77D92618E8C0F0001AD578;
 					};
@@ -228,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C77D96E18E8CF92001AD578 /* Valby.gpx in Resources */,
 				9C77D94318E8C0F0001AD578 /* Images.xcassets in Resources */,
 				9C77D93518E8C0F0001AD578 /* InfoPlist.strings in Resources */,
 				9C77D93E18E8C0F0001AD578 /* Main.storyboard in Resources */,
@@ -249,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C77D94118E8C0F0001AD578 /* ViewController.m in Sources */,
+				9C77D94118E8C0F0001AD578 /* MapViewController.m in Sources */,
 				9C77D93B18E8C0F0001AD578 /* AppDelegate.m in Sources */,
+				9C77D96918E8CA5C001AD578 /* PeerAnnotation.m in Sources */,
+				9CF4A81518EC9B1F00ED54BF /* TableViewController.m in Sources */,
 				9C77D93718E8C0F0001AD578 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,9 +422,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MPCTest/MPCTest-Prefix.pch";
 				INFOPLIST_FILE = "MPCTest/MPCTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +437,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MPCTest/MPCTest-Prefix.pch";
 				INFOPLIST_FILE = "MPCTest/MPCTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +506,7 @@
 				9C77D95B18E8C0F0001AD578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C77D95C18E8C0F0001AD578 /* Build configuration list for PBXNativeTarget "MPCTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +515,7 @@
 				9C77D95E18E8C0F0001AD578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
