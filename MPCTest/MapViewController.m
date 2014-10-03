@@ -571,16 +571,20 @@ didReceiveInvitationFromPeer:(MCPeerID *)peerID
 
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region
 {
-    // TODO: check if I can turn on iBeacon or MP Connectivity here
-    
     NSLog(@"didEnterRegion: %@", region);
     
-    // make a network request
+    // Post local notification
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    notification.alertBody = @"Your buddy is nearby!";
+    [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
+    
+    // try make a network request
     NSError *error;
     NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://placekitten.com/g/200/300"] options:NSDataReadingUncached error:&error];
     UIImage *image = [UIImage imageWithData:imageData];
     NSLog(@"Image downloaded: %@, error: %@", image, error);
     
+    // TODO: check if I can turn on iBeacon or MP Connectivity here
     [self startBeaconing];
     
     [self.advertiser startAdvertisingPeer];
