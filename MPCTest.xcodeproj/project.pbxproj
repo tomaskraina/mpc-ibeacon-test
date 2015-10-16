@@ -26,7 +26,6 @@
 		9C77D96418E8C2C6001AD578 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D96318E8C2C6001AD578 /* CoreLocation.framework */; };
 		9C77D96618E8C2CF001AD578 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77D96518E8C2CF001AD578 /* MultipeerConnectivity.framework */; };
 		9C77D96918E8CA5C001AD578 /* PeerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C77D96818E8CA5C001AD578 /* PeerAnnotation.m */; };
-		9C77D96E18E8CF92001AD578 /* Valby.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C77D96D18E8CF92001AD578 /* Valby.gpx */; };
 		9C86BF3119DEF941004E196B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C86BF3019DEF941004E196B /* Crashlytics.framework */; };
 		9CF4A81518EC9B1F00ED54BF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4A81418EC9B1F00ED54BF /* TableViewController.m */; };
 /* End PBXBuildFile section */
@@ -67,10 +66,6 @@
 		9C77D96518E8C2CF001AD578 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		9C77D96718E8CA5C001AD578 /* PeerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerAnnotation.h; sourceTree = "<group>"; };
 		9C77D96818E8CA5C001AD578 /* PeerAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerAnnotation.m; sourceTree = "<group>"; };
-		9C77D96A18E8CEAF001AD578 /* Copenhagen.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Copenhagen.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Copenhagen.gpx"; sourceTree = "<group>"; };
-		9C77D96B18E8CEAF001AD578 /* Lyngby.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Lyngby.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Lyngby.gpx"; sourceTree = "<group>"; };
-		9C77D96C18E8CEAF001AD578 /* Norreport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Norreport.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Norreport.gpx"; sourceTree = "<group>"; };
-		9C77D96D18E8CF92001AD578 /* Valby.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Valby.gpx; path = "../../Mind the Checkout/Mind The Checkout/Location Data/Valby.gpx"; sourceTree = "<group>"; };
 		9C86BF3019DEF941004E196B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = lib/Crashlytics.framework; sourceTree = "<group>"; };
 		9CF4A81318EC9B1F00ED54BF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		9CF4A81418EC9B1F00ED54BF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
@@ -161,10 +156,6 @@
 		9C77D93118E8C0F0001AD578 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C77D96D18E8CF92001AD578 /* Valby.gpx */,
-				9C77D96A18E8CEAF001AD578 /* Copenhagen.gpx */,
-				9C77D96B18E8CEAF001AD578 /* Lyngby.gpx */,
-				9C77D96C18E8CEAF001AD578 /* Norreport.gpx */,
 				9C77D93218E8C0F0001AD578 /* MPCTest-Info.plist */,
 				9C77D93318E8C0F0001AD578 /* InfoPlist.strings */,
 				9C77D93618E8C0F0001AD578 /* main.m */,
@@ -276,7 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C77D96E18E8CF92001AD578 /* Valby.gpx in Resources */,
 				9C77D94318E8C0F0001AD578 /* Images.xcassets in Resources */,
 				9C77D93518E8C0F0001AD578 /* InfoPlist.strings in Resources */,
 				9C77D93E18E8C0F0001AD578 /* Main.storyboard in Resources */,
